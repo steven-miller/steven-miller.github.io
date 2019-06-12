@@ -1,7 +1,9 @@
 ---
 layout: page
-title: About
-permalink: /about/
+title: Portfolio
+permalink: /portfolio/
 ---
 
-Introduce yourself here... so people will know who you are and what you do.. blah..blah..blah..
+Content coming momentarily...
+
+![amaze](/assets/images/author.jpg)
