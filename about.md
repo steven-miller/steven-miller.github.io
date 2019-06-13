@@ -38,15 +38,15 @@ _Results coming soon..._
 
 ### Track number of pageviews in a timeframe
 
-**Summary**: A module that creates dynamic events to segment on contacts that have seen "X" number of pages in the last "Y" days. (Not native functionality in HubSpot)
+**Summary**: a module that creates dynamic events to segment on contacts that have seen "X" number of pages in the last "Y" days (not native functionality in HubSpot)
 
-**Technologies**: vanilla Javascript, Tracking Code API, localStorage, HubL field tokens for customization
+**Technologies**: Javascript, HubSpot Tracking Code API, localStorage, HubL field tokens for customization
 
 [Peruse the code](https://gist.github.com/steven-miller/878a9105f1525e280214dae3ca86fbf1){:rel="nofollow"}
 
 ### Fullstack HubSpot Demo Microsite
 
-**Summary**: A microsite designed for a demo that demonstrates the power of various APIs for additional segmenting in HubSpot (tracking buyers and sellers on a platform-based website)
+**Summary**: a microsite designed for a demo that demonstrates the power of various APIs for additional segmenting in HubSpot (tracking buyers and sellers on a platform-based website)
 
 **Technologies**: Express, Pug, Timeline API, Transactional Email API, Repl.it, Bot code interacting with external APIs
 
@@ -88,13 +88,13 @@ _Results coming soon..._
 
 ### District Managment Group Website Redesign
 
-**Summary**: worked with a team to overhaul a Joomla instance on-time, and in-budget. Provided customized modules and database of assets.
+**Summary**: worked with a team to update and overhaul a Joomla instance on-time, and in-budget, providing customized modules and database of assets
 
 [See snapshots from the site](https://saviorlabs.com/work/district-management-group/){:rel="nofollow"}
 
 ### Cataloging historical resources for non-profit
 
-**Summary**: as part of a larger effort for historical preservation, onstructed a resource database for a content-driven non-profit for tracking historical, digitized content
+**Summary**: as part of a larger effort for historical preservation, constructed a resource database for a content-driven non-profit for tracking historical, digitized content
 
 **Technologies**: MySQL, Amazon Books APIs, Fabrik database management UI
 
