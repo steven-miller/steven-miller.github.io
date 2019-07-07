@@ -6,43 +6,23 @@ description: Examples of my work over the last few years
 ---
 
 Here, I've compiled:
+* [**custom modules and apps**](#hubspot){:rel="nofollow"} as a Principal Technical Consultant at HubSpot
 * [**side projects**](#projects){:rel="nofollow"} from Hack Reactor
-* [**custom modules and scripts**](#hubspot){:rel="nofollow"} as a Principal Technical Consultant at HubSpot
 * [**websites I built**](#websites){:rel="nofollow"} as a web developer at SaviorLabs
 
 ***
 
-## <a name="projects"></a>Current Projects
+## <a name="hubspot"></a>HubSpot Consulting Work
 
-### Designing a Goodreads service
+### HubSpot Workflow Analyzer (early build)
 
-**Summary**: a microservice designed to mimic the Goodreads' book summary section of their website
+**Summary**: an app to easily identify redundant and outdated workflows in your HubSpot portal
 
-**Technologies**: MERN stack, webpack, styled-components, popper.js, AWS Elastic Beanstalk, Mongo Atlas, Jest and Enzyme
+**Technologies**: MERN stack, workflows API
 
-[Peek at a screenshot of the proxy](/assets/images/goodreads-proxy-running.png){:rel="nofollow"}
+[See a screenshot of an early build](/assets/images/workflow-audit-early-build.png)
 
-[Peruse the code](https://github.com/rpt12-knightrider/sm-service){:rel="nofollow"}
-
-### Scaling an AirBnB service (In progress)
-
-**Summary**: taking someone else's service, adding a full RESTful API, and scaling it up to handle 1k RPS in production
-
-**Technologies**: Express, React, Postgres, AWS EC2, AWS ELB, Redis, NewRelic, Artillery.io, Loader.io
-
-_Results coming soon..._
-
-***
-
-## <a name="hubspot"></a>HubSpot Custom Work
-
-### Track number of pageviews in a timeframe
-
-**Summary**: a module that creates dynamic events to segment on contacts that have seen "X" number of pages in the last "Y" days (not native functionality in HubSpot)
-
-**Technologies**: Javascript, HubSpot Tracking Code API, localStorage, HubL field tokens for customization
-
-[Peruse the code](https://gist.github.com/steven-miller/878a9105f1525e280214dae3ca86fbf1){:rel="nofollow"}
+[Check out the code](https://github.com/steven-miller/hubspot-workflow-auditor)
 
 ### Fullstack HubSpot Demo Microsite
 
@@ -54,18 +34,17 @@ _Results coming soon..._
 
 [Inspect the bot code from the seller page](https://gist.github.com/steven-miller/00ef0daa59f47ed014f3c8ca267b7db3){:rel="nofollow"}
 
-### Podcast-Augmented Blog Feed
+### Track number of pageviews in a timeframe
 
-**Summary**: adds additional podcast metadata onto a traditional HubSpot blog feed, turning it into a podcast feed
+**Summary**: a module that creates dynamic events to segment on contacts that have seen "X" number of pages in the last "Y" days (not native functionality in HubSpot)
 
-**Technologies**: HubDB, jQuery
+**Technologies**: Javascript, HubSpot Tracking Code API, localStorage, HubL field tokens for customization
 
-[Check out the feed](http://smiller-3012122.hs-sites.com/podcast-feed-hubdb){:rel="nofollow"}
-
-[See the custom module code](https://gist.github.com/steven-miller/cb92861a06271ea59250bb6b0849a990){:rel="nofollow"}
+[Peruse the code](https://gist.github.com/steven-miller/878a9105f1525e280214dae3ca86fbf1){:rel="nofollow"}
 
 ### Other projects from HubSpot
 
+* A [blog feed](http://smiller-3012122.hs-sites.com/podcast-feed-hubdb){:rel="nofollow"} that adds additional podcast metadata onto a traditional HubSpot blog feed, turning it into a podcast feed ([see the custom module code](https://gist.github.com/steven-miller/cb92861a06271ea59250bb6b0849a990){:rel="nofollow"})
 * A [bot script](https://gist.github.com/steven-miller/e14ab49ab09de366f65741f35665d789){:rel="nofollow"} that rotates to different sales teams based on time of day ([try it out](http://smiller-3012122.hs-sites.com/time-rotator-bot){:rel="nofollow"})
 * A [Node script](https://github.com/steven-miller/datanyze-to-csv){:rel="nofollow"} to easily extract tech stack information by website from Datanyze (in progress)
 * A Node script designed to [transform the default property history export](https://github.com/steven-miller/hubspot-dealstage-pipeline-history-csv){:rel="nofollow"} from HubSpot of deal stages and pipelines and turn it into a CSV for historical analysis (in progress)
@@ -73,6 +52,33 @@ _Results coming soon..._
 * A [form that runs calculations](https://gist.github.com/steven-miller/39b0901c00cde6edca80b338302feeed){:rel="nofollow"} based on field fills and delivers an answer to the user ([try it out!](http://smiller-3012122.hs-sites.com/apartment-cleaning-pricing-calculator-boston){:rel="nofollow"})
 * A trick to [create custom "pre-populated" content for a module](https://gist.github.com/steven-miller/5cd66736d51c6e87fb35bce1f1b598d2){:rel="nofollow"} by constructing objects, then selecting an object through a dropdown field
 * A nice, clean, customizable module to [utilize Google's new promotions tab metadata](https://gist.github.com/steven-miller/7cfad555b5cec5530a388435a4ebac54){:rel="nofollow"} in email
+
+***
+
+## <a name="projects"></a>Side Projects
+
+### Scaling an AirBnB service
+
+**Summary**: working off of a pre-existing service, adding a full RESTful API, and scaling it up to handle 1k RPS in production
+
+**Technologies**: Express, React, Postgres, AWS EC2, AWS ELB, Redis, NewRelic, Artillery.io, Loader.io
+
+**Results**: the system is now able to tolerate 1k requests per second, with less than 1% error rate and average 60ms response time on popular assets
+
+[View slides of the NewRelic-monitored results in production](https://docs.google.com/presentation/d/1DnxoetQHBd-HN4257r5CaEVTX-HbCwAZG3XyBHoo2OY/edit?usp=sharing)
+
+[Read over the API documentation and code](https://github.com/sdc-dragon-stone/s-service){:rel="nofollow"}
+
+
+### Designing a Goodreads service
+
+**Summary**: a microservice designed to mimic the Goodreads' book summary section of their website
+
+**Technologies**: MERN stack, webpack, styled-components, popper.js, AWS Elastic Beanstalk, Mongo Atlas, Jest and Enzyme
+
+[Peek at a screenshot of the proxy](/assets/images/goodreads-proxy-running.png)
+
+[Peruse the code](https://github.com/rpt12-knightrider/sm-service){:rel="nofollow"}
 
 ***
 
